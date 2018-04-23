@@ -1,0 +1,151 @@
+/*
+    top_menu的css
+*/
+.top_menu {
+    padding-top: 5px;
+    background-color: rgb(255, 90, 0);
+}
+
+.top_menu #nav {
+    position: relative;
+    margin: 0 auto;
+    min-height: 23px;
+    width: 1200px;
+    z-index: 999;
+    display: block;
+}
+
+.top_menu #nav .clearfix .frist_li {
+    width: 200px;
+    display:-webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content:center;
+    justify-content: center;
+}
+
+.top_menu #nav li:first-child {
+    padding-left: 0 !important;
+}
+
+.top_menu #nav li, .top_menu #nav li a.nav_t {
+    display: inline;
+    float: left;
+}
+
+.top_menu #nav li, .top_menu #nav li a.nav_t {
+    display: inline;
+    float: left;
+}
+
+.top_menu #nav li {
+    padding: 0 20px;
+    z-index: 1;
+}
+
+/*.top_menu #nav ul li:hover .sub_menu.big_sub_menu {
+    display: block;
+}*/
+
+.top_menu #nav li, .top_menu #nav li a.nav_t {
+    display: inline;
+    float: left;
+}
+
+.top_menu #nav li a.nav_t {
+    border-bottom: 2px solid transparent;
+    color: #000;
+    font: 14px/18px Arial;
+    padding-bottom: 2px;
+}
+
+.top_menu #nav li, .top_menu #nav li a.nav_t {
+    display: inline;
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.top_menu #nav .big_sub_menu {
+    margin-left: 0;
+    width: 1200px;
+}
+
+.top_menu #nav .sub_menu, .top_menu #nav li .point {
+    display: none;
+    position: absolute;
+    top: 20px;
+    padding-top: 10px;
+}
+
+.top_menu #nav .sub_menu {
+    background-color: #fff;
+    font-family: Arial;
+    padding: 6px 0 8px;
+}
+
+.top_menu #nav .big_sub_menu, .top_menu #nav .small_sub_menu {
+    border-top: medium none;
+    left: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.top_menu #nav .big_sub_menu, .top_menu #nav .small_sub_menu {
+    border: medium none;
+}
+
+.top_menu #nav .big_sub_menu .trends_item {
+    float: left;
+    width: 620px;
+}
+
+.top_menu #nav .big_sub_menu .trends_item dl:nth-of-type(1) {
+    float: left;
+    width: 320px;
+}
+
+.top_menu #nav .big_sub_menu .trends_item dt {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.top_menu #nav .big_sub_menu .trends_item dt {
+    text-transform: uppercase;
+}
+
+.top_menu #nav .sub_menu a {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.top_menu #nav .sub_menu a {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.top_menu #nav .sub_menu dd {
+    width: 100%;
+}
+
+.top_menu #nav .big_sub_menu .trends_img {
+    border-left: 1px solid #ddd;
+    float: left;
+    margin-left: -1px;
+    min-height: 305px;
+    padding-left: 60px;
+}
+
+.top_menu #nav .big_sub_menu .trends_img img {
+    height: 305px;
+    vertical-align: top;
+    width: 244px;
+}

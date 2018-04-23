@@ -1,0 +1,111 @@
+.store_detail {
+	display: flex;
+	width: 100%;
+	margin-top: 20px;
+}
+.store_info {
+	width: 20%;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #eee;
+}
+.store_info .other_store {
+	padding: 10px 0;
+	display: flex;
+	border-bottom: 1px solid #eee;
+}
+.store_info .other_store img {
+	width: 120px;
+	height: 100px;
+}
+.store_pro {
+	width: 80%;
+	border: 1px solid #eee;
+}
+.store_pro .selector {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #e8e8e8;
+}
+.store_pro .selector .selector-left {
+	width: 50%;
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.store_pro .selector .selector-right {
+	width: 50%;
+	display: flex;
+    align-items: center;
+	justify-content: flex-end;
+}
+
+.store_pro .selector .selector-right ul {
+	float: left;
+    line-height: 39px;
+    margin: 0;
+    padding: 0;
+} 
+.store_pro .selector .selector-right ul li {
+	float: left;
+}
+.store_pro .selector .selector-right ul li a {
+	height: 39px;
+    margin-left: -1px;
+    padding: 0 19px;
+    float: left;
+    display: block;
+    border-left: solid 1px #f5f5f5;
+    border-right: solid 1px #f5f5f5;
+    text-decoration: none;
+    color: #6d6d6d;
+}
+.store_pro .selector .selector-right ul li a.active {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    border-color: #e5e5e5;
+    color: rgb(255, 90, 0);
+}
+
+.store_pro .selector .selector_child {
+	margin-left: 20px;
+	border: 1px solid #dcd7d7;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+}
+.store_pro .selector .selector_child input {
+	height: 22px;
+	padding: 0 5px;
+	border: none;
+}
+.store_pro .selector a {
+	padding: 2px 10px;
+    border: none;
+    margin-left: -3px;
+}
+.content .rows {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 30px;
+	display: flex;
+}
+.content .staff {
+	height: 280px;
+	width: 25%;
+	margin: 0;
+    padding: 0;
+}
+.content .staff .staff_one {
+	height: 100%;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #eee;
+}
+.content .staff img {
+	width: 200px;
+	height: 110px;
+}

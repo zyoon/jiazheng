@@ -1,0 +1,26 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+	box-sizing: content-box!important;
+}
+
+dt, dd {
+	line-height: inherit!important;
+}
+
+a {
+	color: #666;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+a:active, a:link {
+    background-color: transparent;
+}
+
+ol, ul {
+    list-style: outside none none;
+}

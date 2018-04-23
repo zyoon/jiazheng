@@ -1,0 +1,14 @@
+.yx-order-search{
+    height: 80px;
+    width: 100%;
+}
+.order-heard-table{
+    float: left;
+    margin-top: 20px;
+    height: 60px;
+    width: 100px;
+}
+.order-heard-table button{
+    text-align: left;
+    width: 48px;
+}

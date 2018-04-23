@@ -1,0 +1,35 @@
+.order-detail {
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #e8e8e8;
+}
+
+.order-detail .child {
+	display: flex;
+	padding: 20px 20px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.order-detail .address {
+	align-items: center;
+}
+
+.order-detail .detail {
+	flex-direction: column;
+	justify-content: center;
+}
+
+.order-detail .money-pay {
+	margin: 10px;
+}
+
+.order-detail .money-pay .money {
+	margin: 10px;
+}
+
+.order-detail .money-pay .pay {
+	display: flex;
+	margin-right: 10px;
+	justify-content: flex-end;
+}
